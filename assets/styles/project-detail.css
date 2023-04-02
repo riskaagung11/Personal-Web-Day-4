@@ -1,0 +1,51 @@
+article {
+  width: 70%;
+  margin: 0 auto;
+}
+article h1 {
+  text-align: center;
+  margin: 45px;
+}
+.content-item {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-left img {
+  width: 580px;
+  height: 400px;
+  object-fit: cover;
+}
+.content-right h2 {
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.content-right ul {
+  margin-top: 0;
+  margin-right: 8px;
+  padding: 0;
+  list-style: none;
+}
+.content-right li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.content-right img {
+  width: 25px;
+  height: 25px;
+}
+.content-right p {
+  margin: 0;
+  padding-left: 8px;
+}
+.duration {
+  margin-bottom: 30px;
+}
+.list-tech {
+  display: flex;
+  justify-content: space-between;
+}
+.text-content {
+  text-align: justify;
+}

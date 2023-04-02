@@ -1,0 +1,87 @@
+#hero {
+  background-color: #ffffff;
+  width: 85%;
+  margin: 60px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #171717;
+}
+.content {
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#article-content {
+  width: 60%;
+}
+#article-content p {
+  text-align: justify;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul a {
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button li {
+  padding-right: 15px;
+}
+.button a {
+  background-color: #171717;
+  color: white;
+  border-radius: 16px;
+  padding: 8px 19px;
+  display: inline-block;
+}
+.button #download {
+  margin: 8px 0;
+}
+#download a {
+  background-color: transparent;
+  color: black;
+  padding: 0;
+}
+#download img {
+  width: 16px;
+}
+#link-social-media {
+  display: flex;
+  justify-content: flex-start;
+  margin: 32px 0;
+}
+#link-social-media li {
+  padding-right: 18px;
+}
+#link-social-media img {
+  width: 28px;
+}
+.card {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #171717;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+#item-content {
+  text-align: center;
+  margin: 16px 0;
+}
+#item-content h2 {
+  margin: 0.8rem 0;
+}
+#item-content p {
+  margin: 5px 0;
+}
