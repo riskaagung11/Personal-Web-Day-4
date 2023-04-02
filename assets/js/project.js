@@ -13,6 +13,10 @@ function getBlog(event) {
 
   image = URL.createObjectURL(image[0]);
 
+  if (projectName == "") {
+    return alert();
+  }
+
   let blog = {
     projectName,
     description,

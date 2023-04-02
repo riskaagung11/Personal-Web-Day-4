@@ -21,14 +21,4 @@ function getData() {
   let a = document.createElement("a");
   a.href = `mailto:${destination}?subject=${subject}&body= Hallo nama saya ${name}, ${message}, kamu bisa menghubungiku di ${phoneNumber} atau kirim email ke ${email}.`;
   a.click();
-
-  let data = {
-    nama: name,
-    email: email,
-    telp: phoneNumber,
-    subject: subject,
-    pesan: message,
-  };
-
-  console.log(data);
 }
